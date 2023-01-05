@@ -8,12 +8,14 @@ function Promo()
 {
     return (
     <>
+    <span className='mtitle'>Specials</span>
+    <button className='mbutton'>Online Menu</button>
     <div className="promo">
         <div className='card'>
-        <img className="card-img" src={greeksalad} alt="Bruchetta" />
-        <span className='card-title'>Bruchetta</span>
+        <img className="card-img" src={greeksalad} alt="Greek Salad" />
+        <span className='card-title'>Greek Salad</span>
         <span className='card-price'>$5.99</span>
-        <p className='card-txt'>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished... </p>
+        <p className='card-txt'>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary... </p>
         <span className='card-title'>Order For Delivery</span>
         <img className='card-order' src={icon} alt="icon" />
         </div>
