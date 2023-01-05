@@ -1,3 +1,11 @@
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+
+
+
+
 /* nav section */
 
 .hlogo {
@@ -78,6 +86,16 @@
   width: 70vh;
 }
 
+.button {
+  background-color: black;
+  color: #FFF;
+  height: 7vh;
+  width: 30vh;
+  margin-left: 10vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  border-radius: 1em;
+}
 .mbutton {
   background-color: black;
   color: #FFF;
@@ -262,4 +280,57 @@
 
 .blocp {
   display: block;
+}
+
+
+
+
+
+/* Reserve Section*/
+
+.form-title {
+    font-size: 24pt;
+}
+
+.input {
+  font-size: 16pt;
+  text-align: justify;
+  padding: 1vh;
+}
+
+.input label{
+  font-size: 16pt;
+  text-align: justify;
+  padding: 2vh;
+}
+
+input[type=text] {
+  width: 30vh;
+  height: 4vh;
+  border-radius: 8pt;
+}
+
+fieldset {
+  border-radius: 8pt;
+  background-color: #d9d9d9;
+}
+
+input[type=date] {
+  width: 30vh;
+  height: 4vh;
+  border-radius: 8pt;
+}
+input[type=time] {
+  width: 30vh;
+  height: 4vh;
+  border-radius: 8pt;
+}
+
+input[type=submit] {
+  width: 30vh;
+  height: 4vh;
+  background-color: black;
+  color: #FFF;
+  border-radius: 8pt;
+  margin-left: 3vh;
 }

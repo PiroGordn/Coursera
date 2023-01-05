@@ -5,33 +5,20 @@ import Promo from './menu';
 import Testimonials from './Testimonials';
 import About from './AboutUs';
 import Footer from './Footer';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import Reserve from './Reserve';
+import Home from './LandingPage'
 
 function App() {
   return (
     <>
-    <div>
-    <Header/>
-    </div>
+    <Routes>
+        <Route exact path='/' element={<Home/>}></Route>
+        <Route path='/reserve' element={<Reserve/>}></Route>
+    </Routes>
 
-    <div>
-      <Hero/>
-    </div>
 
-    <div>
-     <Promo/>
-    </div>
 
-    <div>
-     <Testimonials/>
-    </div>
-
-    <div>
-     <About/>
-    </div>
-
-    <div>
-     <Footer/>
-    </div>
     </>
   );
 }

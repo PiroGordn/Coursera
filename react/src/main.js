@@ -11,7 +11,7 @@ function Hero()
         <span className='Title'>Little Lemon</span>
         <span className='subTitle'>Chicago</span>
         <p className='txt'>Little Lemon is a Mediterranean restaurant owned by two brothers Adrian and Mario. Our Menu includes dishes from Italian, Mediterranean and Turkish Cuisines.</p>
-        <button className='mbutton'>Reserve A Table</button>
+        <button className='button'>Reserve A Table</button>
         </div>
         
         <div>

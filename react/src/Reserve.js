@@ -1,16 +1,20 @@
 import Headinglogo from './Images/Headinglogo.png';
-import Header from './Header';
+import Nav from './Nav.js';
 import './App.css';
-
-function Reserve()
+import BookForm from './Form';
+function Header()
 {
     return (
     <>
-    <div>
-        <Header/>
+    <div className="header">
+        <img className="hlogo" src={Headinglogo} alt="Header Logo" />
+        <Nav/>
+        </div>
+        <div>
+            <BookForm/>
         </div>
     </>
     );
 }
 
-export default Reserve;
+export default Header
