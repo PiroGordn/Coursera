@@ -72,8 +72,50 @@
   background-color: black;
   color: #FFF;
   margin-left: 10vh;
-  margin-top: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
   height: 7vh;
   width: 30vh;
   border-radius: 1em;
 }
+
+
+
+
+.promo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vh;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #d9d9d9;
+  justify-content: space-around;
+}
+
+.card-img {
+  width: 40vh;
+  height: 30vh;
+  display: block;
+}
+
+.card-title {
+  font-size: 24pt;
+  margin-right: 5vh;
+}
+
+.card-price {
+  font-size: 24pt;
+  color: #EE9972;
+}
+
+.card-txt {
+  width: 40vh;
+  font-size: 16pt;
+}
+
+.card-order {
+  font-size: 24pt;
+}
+

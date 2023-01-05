@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './Header';
 import Hero from './main';
+import Promo from './menu';
+import Testimonials from './Testimonials';
 
 function App() {
   return (
@@ -13,7 +15,13 @@ function App() {
       <Hero/>
     </div>
 
-    <footer></footer>
+    <div>
+     <Promo/>
+    </div>
+
+    <div>
+     <Testimonials/>
+    </div>
     </>
   );
 }
