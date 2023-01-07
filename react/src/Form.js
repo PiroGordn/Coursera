@@ -22,7 +22,7 @@ function BookForm()
   <label>
     Last Name* :
     </label> <br/>
-    <input type="text" name="last name" required/>
+    <input data-testid="lname" type="text" name="last name" required/>
 
   </fieldset>
   </div>
@@ -32,7 +32,7 @@ function BookForm()
   <label>
     Email* :
     </label> <br/>
-    <input type="email" name="email" required/>
+    <input data-testid="email" type="text" name="email" required/>
 
   </fieldset>
   </div>
@@ -42,7 +42,7 @@ function BookForm()
   <label>
     Date of Reservation* :
     </label> <br/>
-    <input type="date" name="date" required/>
+    <input data-testid="date" type="date" name="date" required/>
 
   </fieldset>
   </div>
@@ -52,12 +52,12 @@ function BookForm()
   <label>
    Time of Reservation* :
    </label> <br/>
-    <input type="time" name="time" required/>
+    <input data-testid="time" type="time" name="time" required/>
   </fieldset>
   </div>
 
 <div className='input'>
-  <input type="submit" value="Submit" />
+  <input data-testid="button" type="submit" value="submit" />
   </div>
         </form>
     </div>
@@ -65,4 +65,4 @@ function BookForm()
     );
 }
 
-export default BookForm;
+export default BookForm
