@@ -310,6 +310,12 @@ input[type=text] {
   border-radius: 8pt;
 }
 
+input[type=email] {
+  width: 30vh;
+  height: 4vh;
+  border-radius: 8pt;
+}
+
 fieldset {
   border-radius: 8pt;
   background-color: #d9d9d9;
@@ -332,5 +338,5 @@ input[type=submit] {
   background-color: black;
   color: #FFF;
   border-radius: 8pt;
-  margin-left: 3vh;
+  margin-left: 3nvh;
 }

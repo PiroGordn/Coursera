@@ -1,9 +1,5 @@
-import Headinglogo from './Images/Headinglogo.png';
-import Nav from './Nav.js';
-import Reserve from './Reserve';
-import App from './App';
 import './App.css';
-import { From } from 'react-router-dom';
+import { Form } from 'react-router-dom';
 
 function BookForm()
 {
@@ -17,7 +13,7 @@ function BookForm()
   <label>
     First Name* :
     </label> <br/>
-    <input type="text" name="first name" required/>
+    <input data-testid="fname" type="text" name="first name" required/>
     </fieldset>
   </div>
 
@@ -36,7 +32,7 @@ function BookForm()
   <label>
     Email* :
     </label> <br/>
-    <input type="text" name="email" required/>
+    <input type="email" name="email" required/>
 
   </fieldset>
   </div>
@@ -69,4 +65,4 @@ function BookForm()
     );
 }
 
-export default BookForm
+export default BookForm;
